@@ -1,7 +1,7 @@
 import sqlite3
 
 # establish a connection and a cursor
-connection = sqlite3.connect("data1.db")
+connection = sqlite3.connect("data2.db")
 cursor = connection.cursor()
 
 # Query all data

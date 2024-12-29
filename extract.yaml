@@ -1,0 +1,3 @@
+tours:     #key, mikä vaan
+  css: '#displaytimer'   # sisältö
+# parempi hakea seuraavasti: napauta oikealla riviä - copy - selector -> #displaytimer
