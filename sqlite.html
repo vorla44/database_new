@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Built in functions</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+<body>
+
+<div class="p-5 bg-secondary text-white text-center">
+  <h1>SQLite</h1>
+
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+        <a class="nav-link" href="https://www.udemy.com/course/the-python-mega-course/learn/lecture/34605142#overview">Udemy</a>
+      </li>
+       <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Linkit</a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">This page</a></li>
+
+  </ul>
+    </ul>
+  </div>
+</nav>
+
+<div  class = "container mt-5">
+
+<div class="row">
+    <div class="col-sm-4">
+
+
+
+    </div>
+    <div class="col-sm-8">
+        <h3>Muokkaus-ulkonäkö</h3>
+<p>Edit - Preferences - muuta fonttia yms / DataBrowser-font / SQL - font
+
+</p>
+
+
+
+  </div> <!-- row-->
+
+<div class="row">
+    <div class="col-sm-4">
+<!-- <img src="img/input-output.png" style="width:70%"><br><br>-->
+
+
+    </div>
+    <div class="col-sm-8">
+        <h3>Database, lisäys poisto</h3>
+<p>New Database (data.db)- nimi- ok<br>
+  Table: nimi (events)  - add - tyyppi<br>
+   Katso: Database Structure <br>
+   Katso Browse Data mitä on tallennettu<br>
+Uusi rivi: Insert a new record... painike ja napauta kenttää ja kirjoita<br>
+ Tallennus:  Write changes <bR>
+
+
+</p>
+<p>Pythonissa em. toimenpiteet tehdään sql languagen avulla.</p>
+"INSERT INTO events VALUES ('Tigers', 'Tiger City', '2088.10.14')<br>
+        Tämä kopioidaan (ilman "") ja valitaan Execute sql - 1: jälkeen paste ja painikkesta execute<bR>
+  Kun katsot Browse data, tieto on lisääntynyt databaseen. <bR>
+ Tuota Insert riviä voi muuttaa ja lisätä lisää muuttamalla tekstiä.
+
+  </div> <!-- row-->
+
+    <div class="row">
+    <div class="col-sm-4">
+<!-- <img src="img/input-output.png" style="width:70%"><br><br>-->
+
+
+    </div>
+    <div class="col-sm-8">
+        <h3>Database, haku</h3>
+        Kirjoita Execute SQL kenttään:<br>
+SELECT * FROM events WHERE date ='2088.10.15' <bR>
+jne... <bR>
+  </div> <!-- row-->
+
+</div>
+
+
+
+
+
+
+<div class="mt-5 p-4 bg-dark text-white text-center">
+  <p>Footer</p>
+</div>
+</div>
+</body>
+
+</html>
